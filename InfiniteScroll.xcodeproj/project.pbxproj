@@ -13,6 +13,8 @@
 		8E64328B1DD2F4F900E088A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E64328A1DD2F4F900E088A6 /* Assets.xcassets */; };
 		8E64328E1DD2F4F900E088A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E64328C1DD2F4F900E088A6 /* LaunchScreen.storyboard */; };
 		8E6432991DD2F4F900E088A6 /* InfiniteScrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6432981DD2F4F900E088A6 /* InfiniteScrollUITests.swift */; };
+		8E6432A41DD2FFE000E088A6 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6432A31DD2FFE000E088A6 /* PageViewController.swift */; };
+		8E6432A81DD320C400E088A6 /* TabCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6432A71DD320C400E088A6 /* TabCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8E6432941DD2F4F900E088A6 /* InfiniteScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6432981DD2F4F900E088A6 /* InfiniteScrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollUITests.swift; sourceTree = "<group>"; };
 		8E64329A1DD2F4F900E088A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6432A31DD2FFE000E088A6 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		8E6432A71DD320C400E088A6 /* TabCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				8E64328A1DD2F4F900E088A6 /* Assets.xcassets */,
 				8E64328C1DD2F4F900E088A6 /* LaunchScreen.storyboard */,
 				8E64328F1DD2F4F900E088A6 /* Info.plist */,
+				8E6432A31DD2FFE000E088A6 /* PageViewController.swift */,
+				8E6432A71DD320C400E088A6 /* TabCollectionView.swift */,
 			);
 			path = InfiniteScroll;
 			sourceTree = "<group>";
@@ -201,6 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6432A81DD320C400E088A6 /* TabCollectionView.swift in Sources */,
+				8E6432A41DD2FFE000E088A6 /* PageViewController.swift in Sources */,
 				8E6432861DD2F4F900E088A6 /* ViewController.swift in Sources */,
 				8E6432841DD2F4F900E088A6 /* AppDelegate.swift in Sources */,
 			);
